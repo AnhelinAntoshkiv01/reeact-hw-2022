@@ -3,4 +3,4 @@ export * from './Dog';
 export * from './DogsForm';
 export * from './Cats';
 export * from './CatsForm';
-export * from ' ./Cat';
+export * from './Cat';

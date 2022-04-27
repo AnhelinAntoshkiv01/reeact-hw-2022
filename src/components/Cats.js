@@ -2,7 +2,7 @@ import {useSelector} from 'react-redux';
 import {Cat} from './Cat';
 
 export const Cats = () => {
-  const cats = useSelector(({cats}) => cats);
+  const {cats} = useSelector(({cats}) => cats);
 
   return (
       <div>
